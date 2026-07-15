@@ -1,0 +1,8 @@
+[package]
+name = "lirpc_rs_codegen"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+lirpc = { git = "ssh://git@codeberg.org/donkere-vader/lirpc" }
+quote = "1.0.46"
